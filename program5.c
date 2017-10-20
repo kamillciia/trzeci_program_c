@@ -1,15 +1,25 @@
 #include <stdio.h>
 
 int mnoz(int a, int b)
-{
+	{
 	return a*b;
-}
-	int main (void)
-
-{ 	int wynik;
-
-	wynik=mnoz(4,5);
-	printf("wynik mnozenia: %i\n",wynik);
+	}
+int dodaj(int a, int b)
+	{
+	return a+b;
+	}
+int main(void)
+	{
+	int a=2, b=5;
+	char wybor='*';
+	if(wybor=='*')
+	{
+	printf("wynik mnozenia: %i\n",mnoz(a, b));
+	}
+	else	
+	{
+printf("Wynik dodawania: %i\n",dodaj(a, b));
+	}
 
 	return 0;
 }
