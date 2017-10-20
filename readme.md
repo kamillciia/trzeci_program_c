@@ -1,20 +1,28 @@
-Poczatek programu
-=================
+Mnozenie
+========
+
 >
 
 > #include <stdio.h>
 
-> int main()
+>	int mnoz(int a, int b)
 
 > {
 
->	putchar ('v'); /*wpisz znak*/
+>	return a*b;
 
->	putchar ('\n'); /*znak konca lini*/
+> }
 
->	puts ("wypisz string/ciag znakow");
+>	int main (void)
 
->	puts ("Ala ma kota,\na kot ma Ale");
+> {  
+
+>	int wynik;
+
+>	wynik=mnoz(4,5);
+
+>	printf("wynik mnozenia: %i\n",wynik);
 
 >	return 0;
+
 > }
