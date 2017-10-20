@@ -19,9 +19,14 @@ int dziel(int a, int b)
 int main(void)
 	{
 
-	int a=2, b=5;
+	int a,b;
 	char wybor;
-	scanf("%c",&wybor);
+	printf("podaj wartosc a: ");
+	scanf("%i",&a);
+	printf("podaj wartosc b: ");
+	scanf("%i", &b);
+	printf("podaj dzialanie: ");
+	scanf("\n%c",&wybor);
 	if(wybor=='*')
 	{
 	printf("wynik mnozenia: %i\n",mnoz(a, b));
