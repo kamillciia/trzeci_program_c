@@ -11,12 +11,14 @@ int dodaj(int a, int b)
 int main(void)
 	{
 	int a=2, b=5;
-	char wybor='*';
+
+	char wybor;
+	scanf("%c",&wybor);
 	if(wybor=='*')
 	{
 	printf("wynik mnozenia: %i\n",mnoz(a, b));
 	}
-	else	
+	else
 	{
 printf("Wynik dodawania: %i\n",dodaj(a, b));
 	}
